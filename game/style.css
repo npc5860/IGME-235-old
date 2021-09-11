@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #BC0027;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid blue;
+}
+
+h2 {
+    color: #BC0027;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 50px;
+}
+
+p,
+blockquote,
+ul,
+ol {
+    margin-left: 100px;
+}
+
+ul {
+    background-color: #D39378;
+}
+
+blockquote {
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+img.left {
+    margin-left: 50px;
+}
+
+img.right {
+    float: right;
+    margin: 0 12px;
+}
+
+a:link {
+    color: #026B40;
+}
+
+a:visited {
+    color: #95951E;
+}
