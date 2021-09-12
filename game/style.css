@@ -40,10 +40,10 @@ img.right {
     margin: 0 12px;
 }
 
-a:link {
+a:link, a:focus, a:hover {
     color: #026B40;
 }
 
-a:visited {
+a:visited, a:active {
     color: #95951E;
 }

@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: #2A2A72;
+    border-bottom: 1px solid #A8201A;
+}
+
+h2 {
+    color: #2DC7FF;
+    padding-left: 50px;
+}
+
+h2#about {
+    border-bottom: 1px solid black;
+}
+
+h2#links {
+    border-bottom: 1px dotted black;
+}
+
+.noBottomMargin {
+    margin-bottom: 0;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+p, ul {
+    padding-left: 100px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #EAF6FF;
+}
+
+a:link, a:focus, a:hover {
+    color: #143642;
+}
+
+a:visited, a:active {
+    color: #0F8B8D;
+}
