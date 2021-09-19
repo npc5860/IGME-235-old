@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: darkgray;
 }
 
 h1 {
@@ -15,6 +16,14 @@ h2 {
     margin-left: 50px;
 }
 
+main, header {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 80vw;
+    padding: 1rem;
+    background-color: gray;
+}
+
 p,
 blockquote,
 ul,
@@ -22,12 +31,11 @@ ol {
     margin-left: 100px;
 }
 
-ul {
+ul, blockquote {
     background-color: #D39378;
 }
 
 blockquote {
-    background-color: lightgray;
     padding: 1rem;
 }
 
@@ -45,5 +53,5 @@ a:link, a:focus, a:hover {
 }
 
 a:visited, a:active {
-    color: #95951E;
+    color: greenyellow;
 }
