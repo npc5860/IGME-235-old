@@ -1,0 +1,32 @@
+h1, h2, h3 {
+    border-bottom: 1px solid red;
+}
+
+h2 {
+    clear: right;
+}
+
+figure img {
+    width: 40vw;
+}
+
+figure {
+    float: right;
+    margin: 1rem;
+}
+
+.tet {
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid black;
+    width: 50vw;
+    padding: 1rem;
+}
+
+footer {
+    clear: left;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
