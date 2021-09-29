@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Dogica';
+    src: url('../fonts/Dogica/Dogica_Pixel.woff2') format('woff2'),
+        url('../fonts/Dogica/Dogica_Pixel.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Dogica';
+    src: url('../fonts/Dogica/Dogica_Pixel_Bold.woff2') format('woff2'),
+        url('../fonts/Dogica/Dogica_Pixel_Bold.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Retro Computer';
+    src: url('../fonts/RetroComputer/RetroComputer.woff2') format('woff2'),
+        url('../fonts/RetroComputer/RetroComputer.woff') format('woff');
+}
