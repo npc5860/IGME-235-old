@@ -1,0 +1,149 @@
+header {
+    background-color: slategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+header>* {
+    margin: 0;
+}
+
+main {
+    margin: 1rem auto;
+}
+
+body {
+    background-color: lightgray;
+}
+
+img {
+    width: 100%;
+}
+
+#back-to-top {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    filter: drop-shadow(0 1px 2px #000);
+    position: fixed;
+    font-size: xx-large;
+    text-align: center;
+    left: 1.5vw;
+    bottom: 3vh;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    width: 100%;
+    background: lightblue;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.2s ease-out;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgray;
+}   
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    transform: scaleY(1);
+}
+
+nav {
+    font-size: larger;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+nav>* {
+    padding: .5rem 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+section#about.flex {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.flex>* {
+    margin: 0 1rem;
+    min-width: 200px;
+}
+
+label {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#about img {
+    max-width: 200px;
+    width: 100%;
+    float: right;
+    margin: 0 .5rem;
+}
+
+.card {
+    background-color: white;
+    margin: 10px;
+    padding: 1rem;
+    width: 350px;
+    max-width: 400px;
+    flex: 0 1 350px;
+}
+
+.card h2 {
+    text-align: center;
+    margin: .5rem;
+}
+
+.card>* {
+    margin: 0;
+}
+
+@media (max-width: 1100px) {
+    section#about.flex {
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+    }
+
+    section label {
+        text-align: center;
+    }
+
+    .flex-label {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 500px) {
+    #about img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+.flex-label {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 0 10px;
+}
